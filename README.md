@@ -6,12 +6,12 @@ This Repository is forked from [mats-robotics/yolov5_ros](https://github.com/mat
 ## Installation
 
 ### ROS Installation
-**Method 1（Recommend）**: quick install
+**Method 1（Recommend）**: `quick install`
 ```bash
 # 鱼香 ROS
 wget http://fishros.com/install -O fishros && . fishros
 ```
-**Method 2**：
+**Method 2**：`step by step install`
 ```bash
 # step 1: 添加ros软件源
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
@@ -50,7 +50,7 @@ pip install catkin-tools rospkg
 ```
 
 * Build the ROS package:
-**conda envs **
+**conda envs**
 ```bash
 cd yolov5_ros_ws
 which python # 查看当前 python 的地址，例如得到 /home/chelx/.conda/envs/ros/bin/python
